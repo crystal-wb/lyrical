@@ -7,6 +7,6 @@ class SongsController < ApplicationController
     end
     
     def create
-        # TODO create new song and redirect to url "/songs"
+        # TODO create new song and redirect to url "/"
     end
 end

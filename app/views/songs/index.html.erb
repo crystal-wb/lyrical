@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-12">
+        <a class="btn btn-primary" href="/songs/new">New</a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered">
+            <tr>
+                <th class="col-md-8">Title</th>
+                <th class="col-md-4">Author</th>
+            </tr>
+            <% @songs.each do |song| %>
+                <tr>
+                    <td><%= song.title %></td>
+                    <td><%= song.author %></td>
+                </tr>
+            <% end %>
+        </table>
+    </div>
+</div>

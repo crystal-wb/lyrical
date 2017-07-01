@@ -1,10 +1,11 @@
 <!-- TODO add attributes to the form to submit using a post request to the url "/songs" -->
-<form>
-    
+<form action="/songs" method="post">
+    <input type='text' name='title' placeholder='Title'>
     <!-- TODO add input field for song title -->
-    
+    <input type="text" name="author" placeholder="Author">
     <!-- TODO add input field for song author -->
-    
+    <textarea type='text' name='lyrics' placeholder='Lyrics'></textarea>
     <!-- TODO add textarea field for song lyrics -->
+    <input type="submit" value="Save">
     
 </form>
